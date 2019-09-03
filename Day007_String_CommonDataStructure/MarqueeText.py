@@ -9,7 +9,7 @@ def main():
         os.system('cls')
         print(content)
         # 休眠200ms
-        time.sleep(0.1)
+        time.sleep(0.01)
         content = content[1:] + content[0]
 
 
