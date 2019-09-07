@@ -1,4 +1,4 @@
-**#jackfrued_Python-100-Days**
+# **jackfrued_Python-100-Days**
 
 ## Day001_FirstPython
 
