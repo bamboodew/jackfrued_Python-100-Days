@@ -8,5 +8,5 @@
 * ## Day006_FunctionsAndModules
 * ## Day007_String_CommonDataStructure
 `
-**2019年9月5~7日：生成9*9数独表**
+2019年9月5~7日：生成9*9数独表
 `
