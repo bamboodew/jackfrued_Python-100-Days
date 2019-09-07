@@ -1,3 +1,6 @@
+'''
+生成9*9的随机数独表
+'''
 import time
 from random import sample
 
