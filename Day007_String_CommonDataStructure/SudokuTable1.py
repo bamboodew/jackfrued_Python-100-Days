@@ -1,6 +1,3 @@
-'''
-生成9*9的随机数独表
-'''
 import time
 from random import sample
 
@@ -44,19 +41,24 @@ def creatList_9_9():
     list_1 = List_9_9[0][0:3] + List_9_9[1][0:3] + L2[0:3]
     list_2 = List_9_9[0][3:6] + List_9_9[1][3:6] + L2[3:6]
     list_3 = List_9_9[0][6:] + List_9_9[1][6:] + L2[6:]
-    
-    ＃ 下面的判断多余
-    ＃ list_col = []
-    ＃ columnRepeated = 1
-    ＃ for i in range(9):
-    ＃     list_col = [List_9_9[0][i]] + [List_9_9[1][i]] + [L2[i]]
-    ＃     if isElementRepeated(list_col) == 0:
-    ＃         columnRepeated = 0
-    ＃         break
-    
-    ＃ columnRepeated可以删除
-    while isElementRepeated(list_1) * isElementRepeated(list_2) * isElementRepeated(list_3) * columnRepeated == 0:
+
+    # list_col = []
+    # columnRepeated = 1
+    # for i in range(9):
+    #     list_col = [List_9_9[0][i]] + [List_9_9[1][i]] + [L2[i]]
+    #     if isElementRepeated(list_col) == 0:
+    #         columnRepeated = 0
+    #         break
+
+    while isElementRepeated(list_1) * isElementRepeated(list_2) * isElementRepeated(list_3) == 0:
         L2 = sample(L0, 9)
+
+        # columnRepeated = 1
+        # for i in range(9):
+        #     list_col = [List_9_9[0][i]] + [List_9_9[1][i]] + [L2[i]]
+        #     if isElementRepeated(list_col) == 0:
+        #         columnRepeated = 0
+        #         break
 
         list_1 = List_9_9[0][0:3] + List_9_9[1][0:3] + L2[0:3]
         list_2 = List_9_9[0][3:6] + List_9_9[1][3:6] + L2[3:6]
@@ -71,8 +73,11 @@ def creatList_9_9():
 
     list_col = []
     columnRepeated = 1
-    for i in range(9):  ＃ i为列标
-        list_col = [List_9_9[0][i]] + [List_9_9[1][i]] + [List_9_9[2][i]] + [L3[i]]
+    for i in range(9):
+        list_col.append(List_9_9[0][i])
+        list_col.append(List_9_9[1][i])
+        list_col.append(List_9_9[2][i])
+        list_col.append(L3[i])
         if isElementRepeated(list_col) == 0:
             columnRepeated = 0
             break
@@ -86,7 +91,6 @@ def creatList_9_9():
             if isElementRepeated(list_col) == 0:
                 columnRepeated = 0
                 break
-
     List_9_9 += [L3]
     print('第3行:', List_9_9[3])
 
@@ -97,17 +101,13 @@ def creatList_9_9():
     list_2 = List_9_9[3][3:6] + L4[3:6]
     list_3 = List_9_9[3][6:] + L4[6:]
 
-    list_col = []
+    # list_col = []
     columnRepeated = 1
     for i in range(9):
-
-        ＃ 下面判断中的[List_9_9[3][i]]可以不要
-
-        list_col = [List_9_9[0][i]] + [List_9_9[1][i]] + [List_9_9[2][i]] + [List_9_9[3][i]] + [L4[i]]
+        list_col = [List_9_9[0][i]] + [List_9_9[1][i]] + [List_9_9[2][i]] + [L4[i]]
         if isElementRepeated(list_col) == 0:
             columnRepeated = 0
             break
-
     # ElementRepeated_9 = 1
     # for j in range(3):
     #     L_3_4 = [List_9_9[0][3 * j]] + [List_9_9[1][3 * j]] + [List_9_9[2][3 * j]] + [L3[3 * j]] + [L3[3 * j + 1]] + [
@@ -125,11 +125,10 @@ def creatList_9_9():
         # list_col = []
         columnRepeated = 1
         for i in range(9):
-            list_col = [List_9_9[0][i]] + [List_9_9[1][i]] + [List_9_9[2][i]] + [List_9_9[3][i]] + [L4[i]]
+            list_col = [List_9_9[0][i]] + [List_9_9[1][i]] + [List_9_9[2][i]] + [L4[i]]
             if isElementRepeated(list_col) == 0:
                 columnRepeated = 0
                 break
-
         # ElementRepeated_9 = 1
         # for j in range(3):
         #     L_3_4 = [List_9_9[0][3 * j]] + [List_9_9[1][3 * j]] + [List_9_9[2][3 * j]] + [L3[3 * j]] + [
@@ -141,10 +140,9 @@ def creatList_9_9():
         # # continue
 
     List_9_9 += [L4]
-    # 暂不打印第4行，可能需要重新生成
     # print(List_9_9[4])
 
-    # 第5行：重点关键，增加排除无项可选时（>10000次）需要重生成第4行
+    # 第5行
     L5 = sample(L0, 9)
     # print(L5)
     # print()
@@ -153,13 +151,9 @@ def creatList_9_9():
     list_2 = List_9_9[3][3:6] + List_9_9[4][3:6] + L5[3:6]
     list_3 = List_9_9[3][6:] + List_9_9[4][6:] + L5[6:]
 
-    list_col = []
     columnRepeated = 1
     for i in range(9):  # 列循环
-
-        # 如下，可以不要[List_9_9[3][i]] + [List_9_9[4][i]]，与上面的3×3判断重复
-        list_col = [List_9_9[0][i]] + [List_9_9[1][i]] + [List_9_9[2][i]] + [List_9_9[3][i]] + [List_9_9[4][i]] + [
-            L5[i]]
+        list_col = [List_9_9[0][i]] + [List_9_9[1][i]] + [List_9_9[2][i]] + [L5[i]]
         if isElementRepeated(list_col) == 0:
             columnRepeated = 0
             break
@@ -179,10 +173,9 @@ def creatList_9_9():
             list_2 = List_9_9[3][3:6] + L4[3:6]
             list_3 = List_9_9[3][6:] + L4[6:]
 
-            list_col = []
             columnRepeated = 1
             for i in range(9):
-                list_col = [List_9_9[0][i]] + [List_9_9[1][i]] + [List_9_9[2][i]] + [List_9_9[3][i]] + [L4[i]]
+                list_col = [List_9_9[0][i]] + [List_9_9[1][i]] + [List_9_9[2][i]] + [L4[i]]
                 if isElementRepeated(list_col) == 0:
                     columnRepeated = 0
                     break
@@ -192,17 +185,16 @@ def creatList_9_9():
                 list_1 = List_9_9[3][0:3] + L4[0:3]
                 list_2 = List_9_9[3][3:6] + L4[3:6]
                 list_3 = List_9_9[3][6:] + L4[6:]
-                list_col = []
                 columnRepeated = 1
                 for i in range(9):
-                    list_col = [List_9_9[0][i]] + [List_9_9[1][i]] + [List_9_9[2][i]] + [List_9_9[3][i]] + [L4[i]]
+                    list_col = [List_9_9[0][i]] + [List_9_9[1][i]] + [List_9_9[2][i]] + [L4[i]]
                     if isElementRepeated(list_col) == 0:
                         columnRepeated = 0
                         break
 
             List_9_9 += [L4]
             # print(List_9_9[4])
-            n = 0  # 注意要清零
+            n = 0  # n清零
 
         # 重新生成第5行
         # print('重新生成第5行:', n)
@@ -213,11 +205,9 @@ def creatList_9_9():
         list_2 = List_9_9[3][3:6] + List_9_9[4][3:6] + L5[3:6]
         list_3 = List_9_9[3][6:] + List_9_9[4][6:] + L5[6:]
 
-        list_col = []
         columnRepeated = 1
         for i in range(9):
-            list_col = [List_9_9[0][i]] + [List_9_9[1][i]] + [List_9_9[2][i]] + [List_9_9[3][i]] + [
-                List_9_9[4][i]] + [L5[i]]
+            list_col = [List_9_9[0][i]] + [List_9_9[1][i]] + [List_9_9[2][i]] + [L5[i]]
             if isElementRepeated(list_col) == 0:
                 columnRepeated = 0
                 break
@@ -229,7 +219,6 @@ def creatList_9_9():
     # 第6行
     L6 = sample(L0, 9)
 
-    list_col = []
     columnRepeated = 1
     for i in range(9):
         list_col = [List_9_9[0][i]] + [List_9_9[1][i]] + [List_9_9[2][i]] + [List_9_9[3][i]] + [List_9_9[4][i]] + [
@@ -240,7 +229,6 @@ def creatList_9_9():
 
     while columnRepeated == 0:
         L6 = sample(L0, 9)
-        list_col = []
         columnRepeated = 1
         for i in range(9):
             list_col = [List_9_9[0][i]] + [List_9_9[1][i]] + [List_9_9[2][i]] + [List_9_9[3][i]] + [List_9_9[4][i]] + [
@@ -250,7 +238,6 @@ def creatList_9_9():
                 break
 
     List_9_9 += [L6]
-    # 暂不打印第6行，可能要重新生成
     # print('第6行:', List_9_9[6])
 
     # 第7行
@@ -259,11 +246,10 @@ def creatList_9_9():
     list_2 = List_9_9[6][3:6] + L7[3:6]
     list_3 = List_9_9[6][6:] + L7[6:]
 
-    list_col = []
     columnRepeated = 1
     for i in range(9):
         list_col = [List_9_9[0][i]] + [List_9_9[1][i]] + [List_9_9[2][i]] + [List_9_9[3][i]] + [List_9_9[4][i]] + [
-            List_9_9[5][i]] + [List_9_9[6][i]] + [L7[i]]
+            List_9_9[5][i]] + [L7[i]]
         if isElementRepeated(list_col) == 0:
             columnRepeated = 0
             break
@@ -271,16 +257,14 @@ def creatList_9_9():
 
     n = 0
     while isElementRepeated(list_1) * isElementRepeated(list_2) * isElementRepeated(list_3) * columnRepeated == 0:
-        n += 1
         # print(n)
         if n > 10000:
-            # print('n > 10000')
+            # print('n > 1000')
             del List_9_9[6]
 
             # 重新生成第6行
             L6 = sample(L0, 9)
 
-            list_col = []
             columnRepeated = 1
             for i in range(9):
                 list_col = [List_9_9[0][i]] + [List_9_9[1][i]] + [List_9_9[2][i]] + [List_9_9[3][i]] + [
@@ -291,7 +275,6 @@ def creatList_9_9():
 
             while columnRepeated == 0:
                 L6 = sample(L0, 9)
-                list_col = []
                 columnRepeated = 1
                 for i in range(9):
                     list_col = [List_9_9[0][i]] + [List_9_9[1][i]] + [List_9_9[2][i]] + [List_9_9[3][i]] + [
@@ -304,17 +287,18 @@ def creatList_9_9():
             # print(List_9_9[6])
             n = 0  # n清零
 
-        # 重新生成L7
-        L7 = sample(L0, 9)
+        else:
+            n += 1
+            L7 = sample(L0, 9)
+
         list_1 = List_9_9[6][0:3] + L7[0:3]
         list_2 = List_9_9[6][3:6] + L7[3:6]
         list_3 = List_9_9[6][6:] + L7[6:]
 
-        list_col = []
         columnRepeated = 1  # 重置为1，避免受前面代码的影响
         for i in range(9):
-            list_col = [List_9_9[0][i]] + [List_9_9[1][i]] + [List_9_9[2][i]] + [List_9_9[3][i]] + [List_9_9[4][i]] + [
-                List_9_9[5][i]] + [List_9_9[6][i]] + [L7[i]]
+            list_col = [List_9_9[0][i]] + [List_9_9[1][i]] + [List_9_9[2][i]] + [List_9_9[3][i]] + [
+                List_9_9[4][i]] + [List_9_9[5][i]] + [L7[i]]
             if isElementRepeated(list_col) == 0:
                 columnRepeated = 0
                 break
@@ -323,10 +307,9 @@ def creatList_9_9():
     print('第6行:', List_9_9[6])
     print('第7行:', List_9_9[7])
 
-    # 第8行：将对应列直接与L0求余即可
+    # 第8行
     L8 = []
-    list_col = []
-    for j in range(9):  # 共0～8列
+    for j in range(9):
         list_col = [List_9_9[0][j]] + [List_9_9[1][j]] + [List_9_9[2][j]] + [List_9_9[3][j]] + [List_9_9[4][j]] + [
             List_9_9[5][j]] + [List_9_9[6][j]] + [List_9_9[7][j]]
         L8 += [x for x in L0 if x not in list_col]
@@ -337,18 +320,17 @@ def creatList_9_9():
 
 
 def main():
-    n = 0
-    while True:
-        start = time.time()
-        creatList_9_9()
-        stop = time.time()
-        print()
+    start = time.time()
 
+    n = 0
+    for _ in range(10):
+        creatList_9_9()
+        print()
         n += 1
 
-        # 计算按此代码程序生成一个9×9数独矩阵的时间
-        print('第%d次：%.2fs' % (n, (stop - start)))
-        print()
+    stop = time.time()
+
+    print('第%d次：%.2fs' % (n, (stop - start)))
 
 
 if __name__ == '__main__':

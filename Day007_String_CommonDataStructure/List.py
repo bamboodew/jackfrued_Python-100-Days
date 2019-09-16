@@ -1,6 +1,9 @@
+from random import sample
+
+
 def main():
     list1 = [1, 3, 5, 7, 100]
-    print(list1)
+    print(list1 + [2])
 
     list2 = ['hello'] * 5
     print(list2)
@@ -30,6 +33,20 @@ def main():
 
     list1.clear()
     print(list1)
+
+    list3 = [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    print('what')
+    print(list3[-3:0])
+    # for i in list3:
+    #     print(i - (i - 1) // 3, end=' ')
+
+    # a = 1
+    # for i in range(1, 10):
+    #     a *= i
+    #     print(a)
+    # print(sample(list1, 0))
+    #
+    # print(len([]))
 
 
 if __name__ == '__main__':
