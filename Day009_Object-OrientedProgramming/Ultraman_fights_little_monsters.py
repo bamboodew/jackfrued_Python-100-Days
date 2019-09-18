@@ -72,12 +72,19 @@ class Ultraman(Fighter):
             self.attack(other)
             return False
 
-    def magic_attack(self, other):
+    def magic_attack(self, others):
         """
         魔法攻击
-        :param other:被攻击的对象
+        :param others:被攻击的对象
         :return:使用魔法成功返回True否则返回False
         """
+        if self._mp >= 20:
+            self._mp -= 20  # 魔法减20
+            for temp in others:
+                temp.hp -= randint(10, 15)  # 群伤：血量全部减10~15
+            return True
+        else:
+            return False
 
     def resume(self):
         """
@@ -161,8 +168,8 @@ def main():
         # 30%的概率
         elif skill <= 9:
             # 如果魔法足够
-            if ultraman.magic_attack(monster):
-                # 使用魔法攻击
+            if ultraman.magic_attack(monsters):
+                # 使用魔法攻击（群伤）
                 print('%s使用了魔法攻击.' % ultraman.name)
             # 可能因魔法值不足
             else:
@@ -176,10 +183,10 @@ def main():
                 print('%s使用究极必杀技虐了%s.' % (ultraman.name, monster.name))
             # 魔法不足，
             else:
-                # 如果魔法值不足
-                print('%s使用普通攻击打了%s.' % (ultraman.name, monster.name))
                 # 使用普通攻击
+                print('%s使用普通攻击打了%s.' % (ultraman.name, monster.name))
                 ultraman.attack(monster)
+                # 随机恢复1~9点魔法值
                 print('%s的魔法值恢复了%d点.' % (ultraman.name, ultraman.resume()))
         # 如果怪兽还活着
         if monster.alive > 0:
