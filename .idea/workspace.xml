@@ -2,7 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35a8322c-a627-4767-8807-5e5b20deda4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Day001_FirstPython/test_if.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day001_FirstPython/test_turtle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day001_FirstPython/无标题.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day002_ProgramElements/Fahrenheit_to_Celsius.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day002_ProgramElements/LeapYearDecide.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day002_ProgramElements/circle_PerimeterAndArea.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day003_BranchStructure/Hundred-pointSystemToGradingSystem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day003_BranchStructure/RollDiceToDecideWhatToDo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day003_BranchStructure/TriangularArea.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day003_BranchStructure/Units_BritishToMetric.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day004_CircularStructure/CheckNumberIsPrime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day004_CircularStructure/GreatestCommonDivisorAndLeastCommonMultiple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day004_CircularStructure/PrintTrianglePattern.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day005_ConstructProgramLogic/CrapsGambling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day005_ConstructProgramLogic/FibonacciSequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day005_ConstructProgramLogic/FlipCoin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day005_ConstructProgramLogic/HundredMoneyHundredChicken.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day005_ConstructProgramLogic/NarcissisticNumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day005_ConstructProgramLogic/PerfectNumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day005_ConstructProgramLogic/RollDice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day006_FunctionsAndModules/Factorial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day006_FunctionsAndModules/GCD&amp;LCM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day006_FunctionsAndModules/ImportModule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day006_FunctionsAndModules/Parameter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day006_FunctionsAndModules/VariableParameter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day006_FunctionsAndModules/VariableScope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day007_String_CommonDataStructure/Builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day007_String_CommonDataStructure/Dictionary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day007_String_CommonDataStructure/Iterator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day007_String_CommonDataStructure/Iterator_Fibonacci.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day007_String_CommonDataStructure/Iterator_yield.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day007_String_CommonDataStructure/JosephRing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day007_String_CommonDataStructure/List.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day007_String_CommonDataStructure/List_Create.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day007_String_CommonDataStructure/List_Slice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day007_String_CommonDataStructure/List_Sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day007_String_CommonDataStructure/MarqueeText.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day007_String_CommonDataStructure/Practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day007_String_CommonDataStructure/Set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day007_String_CommonDataStructure/String.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day007_String_CommonDataStructure/SudokuTable1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day007_String_CommonDataStructure/SudokuTable_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day007_String_CommonDataStructure/TicTacToeGame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day007_String_CommonDataStructure/Tuple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day007_String_CommonDataStructure/TwocolorBallSelection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day007_String_CommonDataStructure/map&amp;reduce.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day007_String_CommonDataStructure/sumTwo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day007_String_CommonDataStructure/twoSum01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day007_String_CommonDataStructure/twoSum02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day008_Object-OrientedProgramming/DefineClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day008_Object-OrientedProgramming/Digital_clock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day008_Object-OrientedProgramming/Point.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day009_Object-OrientedProgramming/Class_method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day009_Object-OrientedProgramming/Decorator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day009_Object-OrientedProgramming/DefineClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day009_Object-OrientedProgramming/Digital_clock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day009_Object-OrientedProgramming/Point.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day009_Object-OrientedProgramming/Poker_game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day009_Object-OrientedProgramming/Slot2s.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day009_Object-OrientedProgramming/Slots.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day009_Object-OrientedProgramming/Static_method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day009_Object-OrientedProgramming/Ultraman_Fight_Monsters.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day009_Object-OrientedProgramming/Ultraman_fights_little_monsters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day009_Object-OrientedProgramming/inherit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day009_Object-OrientedProgramming/poly-morphism.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day009_Object-OrientedProgramming/repr_str.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day009_Object-OrientedProgramming/repr_str_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day009_Object-OrientedProgramming/repr_str_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day009_Object-OrientedProgramming/str_repr_obj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day010_GUI_Game/01_Simple_GUI_application.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day010_GUI_Game/02_Making_a_game_window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day010_GUI_Game/03_Loading_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day010_GUI_Game/04_Animate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day010_GUI_Game/05_Impact_checking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day011_Files_and_exceptions/01_Demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day011_Files_and_exceptions/02_Demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day011_Files_and_exceptions/03_Demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day011_Files_and_exceptions/04_Demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day011_Files_and_exceptions/05_Write_prime_numbers_to_files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day011_Files_and_exceptions/06_ReadAndWriteBinaryFiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day011_Files_and_exceptions/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day011_Files_and_exceptions/b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day011_Files_and_exceptions/c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day011_Files_and_exceptions/guido.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day011_Files_and_exceptions/吉多.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day011_Files_and_exceptions/致橡树.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -256,7 +343,7 @@
       <workItem from="1571650279337" duration="9491000" />
       <workItem from="1572406788811" duration="37901000" />
       <workItem from="1572609341086" duration="25689000" />
-      <workItem from="1573261781814" duration="6893000" />
+      <workItem from="1573261781814" duration="8769000" />
     </task>
     <servers />
   </component>
