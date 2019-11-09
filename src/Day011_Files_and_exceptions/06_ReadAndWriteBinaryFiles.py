@@ -8,7 +8,7 @@ def main():
     try:
         with open('guido.jpg', 'rb') as fs1:
             data = fs1.read()
-            print(type(data))  # <class 'bytes'>
+            print(type(data))  # output:<class 'bytes'>
         with open('吉多.jpg', 'wb') as fs2:
             fs2.write(data)
     except FileNotFoundError:

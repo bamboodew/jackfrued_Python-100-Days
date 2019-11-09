@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35a8322c-a627-4767-8807-5e5b20deda4c" name="Default Changelist" comment="" />
+    <list default="true" id="35a8322c-a627-4767-8807-5e5b20deda4c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day011_Files_and_exceptions/06_ReadAndWriteBinaryFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day011_Files_and_exceptions/06_ReadAndWriteBinaryFiles.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,15 +54,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyData\jinshuang1\eclipse-workspace\jackfrued_Python-100-Days\src\Day011_Files_and_exceptions" />
+      <recent name="D:\MyData\jinshuang1\eclipse-workspace\jackfrued_Python-100-Days\src\Day010_GUI_Game" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\MyData\jinshuang1\eclipse-workspace\jackfrued_Python-100-Days\src\Day011_Files_and_exceptions" />
       <recent name="D:\MyData\jinshuang1\eclipse-workspace\jackfrued_Python-100-Days\src\Day010_GUI_Game" />
       <recent name="D:\MyData\jinshuang1\eclipse-workspace\jackfrued_Python-100-Days\src\Day010_GUI_Game\res" />
       <recent name="D:\MyData\jinshuang1\eclipse-workspace\jackfrued_Python-100-Days\src\Day009_Object-OrientedProgramming" />
       <recent name="D:\MyData\jinshuang1\eclipse-workspace\jackfrued_Python-100-Days\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\MyData\jinshuang1\eclipse-workspace\jackfrued_Python-100-Days\src\Day010_GUI_Game" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -74,29 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.05_Write_prime_numbers_to_files">
-    <configuration name="01_Demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="jackfrued_Python-100-Days" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Day011_Files_and_exceptions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Day011_Files_and_exceptions/01_Demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.06_ReadAndWriteBinaryFiles">
     <configuration name="02_Demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="jackfrued_Python-100-Days" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,6 +167,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="06_ReadAndWriteBinaryFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jackfrued_Python-100-Days" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Day011_Files_and_exceptions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Day011_Files_and_exceptions/06_ReadAndWriteBinaryFiles.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="GCD&amp;LCM" type="PythonConfigurationType" factoryName="Python">
       <module name="jackfrued_Python-100-Days" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,19 +213,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.GCD&amp;LCM" />
-      <item itemvalue="Python.01_Demo" />
       <item itemvalue="Python.02_Demo" />
       <item itemvalue="Python.03_Demo" />
       <item itemvalue="Python.04_Demo" />
       <item itemvalue="Python.05_Write_prime_numbers_to_files" />
+      <item itemvalue="Python.06_ReadAndWriteBinaryFiles" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.06_ReadAndWriteBinaryFiles" />
         <item itemvalue="Python.05_Write_prime_numbers_to_files" />
         <item itemvalue="Python.04_Demo" />
         <item itemvalue="Python.03_Demo" />
         <item itemvalue="Python.02_Demo" />
-        <item itemvalue="Python.01_Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +255,8 @@
       <workItem from="1571648966364" duration="653000" />
       <workItem from="1571650279337" duration="9491000" />
       <workItem from="1572406788811" duration="37901000" />
-      <workItem from="1572609341086" duration="24982000" />
+      <workItem from="1572609341086" duration="25689000" />
+      <workItem from="1573261781814" duration="3558000" />
     </task>
     <servers />
   </component>
@@ -329,6 +334,7 @@
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$01_Demo.coverage" NAME="01_Demo Coverage Results" MODIFIED="1572934390707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day011_Files_and_exceptions" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$repr_str.coverage" NAME="repr_str Coverage Results" MODIFIED="1572415656571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day009_Object-OrientedProgramming" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$List_Sort.coverage" NAME="List_Sort Coverage Results" MODIFIED="1567214104952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day007_String" />
+    <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$06_ReadAndWriteBinaryFiles.coverage" NAME="06_ReadAndWriteBinaryFiles Coverage Results" MODIFIED="1573265195495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day011_Files_and_exceptions" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$Animate.coverage" NAME="Animate Coverage Results" MODIFIED="1572587509367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day010_GUI_Game" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$Payroll_settlement_system.coverage" NAME="Payroll_settlement_system Coverage Results" MODIFIED="1572512156456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day009_Object-OrientedProgramming" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$05_Impact_checking_1.coverage" NAME="05_Impact_checking_1 Coverage Results" MODIFIED="1572592634055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day010_GUI_Game" />
