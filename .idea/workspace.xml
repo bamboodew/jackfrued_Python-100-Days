@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35a8322c-a627-4767-8807-5e5b20deda4c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day011_Files_and_exceptions/06_ReadAndWriteBinaryFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day011_Files_and_exceptions/06_ReadAndWriteBinaryFiles.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +45,7 @@
     <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
   </component>
   <component name="ProjectId" id="1Q8fsRYtHYyMoOPojVd1QjJ2C6Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
@@ -256,7 +257,7 @@
       <workItem from="1571650279337" duration="9491000" />
       <workItem from="1572406788811" duration="37901000" />
       <workItem from="1572609341086" duration="25689000" />
-      <workItem from="1573261781814" duration="3558000" />
+      <workItem from="1573261781814" duration="5157000" />
     </task>
     <servers />
   </component>
