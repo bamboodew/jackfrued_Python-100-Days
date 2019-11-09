@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35a8322c-a627-4767-8807-5e5b20deda4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Day011_Files_and_exceptions/08_ExcelRead.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day011_Files_and_exceptions/08_ExcelRead.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day011_Files_and_exceptions/08_ExcelRead.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day011_Files_and_exceptions/test.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day011_Files_and_exceptions/test.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Day011_Files_and_exceptions/test3.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day011_Files_and_exceptions/test3.xls" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -258,7 +259,7 @@
       <workItem from="1571650279337" duration="9491000" />
       <workItem from="1572406788811" duration="37901000" />
       <workItem from="1572609341086" duration="25689000" />
-      <workItem from="1573261781814" duration="14552000" />
+      <workItem from="1573261781814" duration="17499000" />
     </task>
     <servers />
   </component>
@@ -317,7 +318,7 @@
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$MarqueeText.coverage" NAME="MarqueeText Coverage Results" MODIFIED="1567245111373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day007_String_CommonDataStructure" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$CrapsGambling.coverage" NAME="CrapsGambling Coverage Results" MODIFIED="1568189536581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day005_ConstructProgramLogic" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$Digital_clock.coverage" NAME="Digital_clock Coverage Results" MODIFIED="1568190244333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day008_Object-OrientedProgramming" />
-    <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$08_ExcelRead.coverage" NAME="08_ExcelRead Coverage Results" MODIFIED="1573295967903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day011_Files_and_exceptions" />
+    <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$08_ExcelRead.coverage" NAME="08_ExcelRead Coverage Results" MODIFIED="1573302674244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day011_Files_and_exceptions" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$Iterator_yield.coverage" NAME="Iterator_yield Coverage Results" MODIFIED="1567219270538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day007_String" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$Class_method.coverage" NAME="Class_method Coverage Results" MODIFIED="1568631524111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day009_Object-OrientedProgramming" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$repr_str_1.coverage" NAME="repr_str_1 Coverage Results" MODIFIED="1568808582257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day009_Object-OrientedProgramming" />
