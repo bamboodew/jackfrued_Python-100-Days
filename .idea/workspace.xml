@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35a8322c-a627-4767-8807-5e5b20deda4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day011_Files_and_exceptions/08_ExcelRead.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day011_Files_and_exceptions/08_ExcelRead.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day011_Files_and_exceptions/test.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day011_Files_and_exceptions/test.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day011_Files_and_exceptions/test3.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day011_Files_and_exceptions/test3.xls" afterDir="false" />
-    </list>
+    <list default="true" id="35a8322c-a627-4767-8807-5e5b20deda4c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +254,7 @@
       <workItem from="1571650279337" duration="9491000" />
       <workItem from="1572406788811" duration="37901000" />
       <workItem from="1572609341086" duration="25689000" />
-      <workItem from="1573261781814" duration="17499000" />
+      <workItem from="1573261781814" duration="17702000" />
     </task>
     <servers />
   </component>
