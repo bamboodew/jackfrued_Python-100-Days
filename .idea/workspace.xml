@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35a8322c-a627-4767-8807-5e5b20deda4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Day012_StringsAndRegularExpressions/01_InputInformation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day012_StringsAndRegularExpressions/01_InputInformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day012_StringsAndRegularExpressions/01_InputInformation.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -258,7 +258,7 @@
       <workItem from="1572406788811" duration="37901000" />
       <workItem from="1572609341086" duration="25689000" />
       <workItem from="1573261781814" duration="17702000" />
-      <workItem from="1573455078027" duration="6979000" />
+      <workItem from="1573455078027" duration="7553000" />
     </task>
     <servers />
   </component>
@@ -308,7 +308,7 @@
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$Making_a_game_window.coverage" NAME="Making_a_game_window Coverage Results" MODIFIED="1572569439494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day010_GUI_Game" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$Tuple.coverage" NAME="Tuple Coverage Results" MODIFIED="1567234282075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day007_String_CommonDataStructure" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$03_Demo.coverage" NAME="03_Demo Coverage Results" MODIFIED="1572940633028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day011_Files_and_exceptions" />
-    <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$01_InputInformation.coverage" NAME="01_InputInformation Coverage Results" MODIFIED="1573474328279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day012_StringsAndRegularExpressions" />
+    <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$01_InputInformation.coverage" NAME="01_InputInformation Coverage Results" MODIFIED="1573474917336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day012_StringsAndRegularExpressions" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$GCD_LCM.coverage" NAME="GCD&amp;LCM Coverage Results" MODIFIED="1567166647971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day006_FunctionsAndModules" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$SudokuTable1.coverage" NAME="SudokuTable1 Coverage Results" MODIFIED="1572409190772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day007_String_CommonDataStructure" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$04_Demo.coverage" NAME="04_Demo Coverage Results" MODIFIED="1572940776667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day011_Files_and_exceptions" />
