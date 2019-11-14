@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35a8322c-a627-4767-8807-5e5b20deda4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Day015_ImageAndOfficeDocumentProcessing/01_CreateWorkbook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day015_ImageAndOfficeDocumentProcessing/02_PlayingWithData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,7 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.01_CreateWorkbook">
+  <component name="RunManager" selected="Python.02_PlayingWithData">
     <configuration name="01_CreateWorkbook" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="jackfrued_Python-100-Days" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,28 +94,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Day015_ImageAndOfficeDocumentProcessing/01_CreateWorkbook.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="01_InputInformation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="jackfrued_Python-100-Days" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Day012_StringsAndRegularExpressions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Day012_StringsAndRegularExpressions/01_InputInformation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,6 +138,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Day012_StringsAndRegularExpressions/02_ExtractMobilePhoneNumber.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02_PlayingWithData" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jackfrued_Python-100-Days" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Day015_ImageAndOfficeDocumentProcessing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Day015_ImageAndOfficeDocumentProcessing/02_PlayingWithData.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,19 +214,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.GCD&amp;LCM" />
-      <item itemvalue="Python.01_InputInformation" />
       <item itemvalue="Python.02_ExtractMobilePhoneNumber" />
       <item itemvalue="Python.03_SplitLongString" />
       <item itemvalue="Python.01_multiProgress" />
       <item itemvalue="Python.01_CreateWorkbook" />
+      <item itemvalue="Python.02_PlayingWithData" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.02_PlayingWithData" />
         <item itemvalue="Python.01_CreateWorkbook" />
         <item itemvalue="Python.01_multiProgress" />
         <item itemvalue="Python.03_SplitLongString" />
         <item itemvalue="Python.02_ExtractMobilePhoneNumber" />
-        <item itemvalue="Python.01_InputInformation" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +258,7 @@
       <workItem from="1572406788811" duration="37901000" />
       <workItem from="1572609341086" duration="25689000" />
       <workItem from="1573261781814" duration="17702000" />
-      <workItem from="1573455078027" duration="18045000" />
+      <workItem from="1573455078027" duration="22771000" />
     </task>
     <servers />
   </component>
@@ -344,6 +344,7 @@
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$06_ReadAndWriteBinaryFiles.coverage" NAME="06_ReadAndWriteBinaryFiles Coverage Results" MODIFIED="1573265195495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day011_Files_and_exceptions" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$Animate.coverage" NAME="Animate Coverage Results" MODIFIED="1572587509367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day010_GUI_Game" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$Payroll_settlement_system.coverage" NAME="Payroll_settlement_system Coverage Results" MODIFIED="1572512156456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day009_Object-OrientedProgramming" />
+    <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$02_PlayingWithData.coverage" NAME="02_PlayingWithData Coverage Results" MODIFIED="1573735112370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day015_ImageAndOfficeDocumentProcessing" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$05_Impact_checking_1.coverage" NAME="05_Impact_checking_1 Coverage Results" MODIFIED="1572592634055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day010_GUI_Game" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$Loading_image.coverage" NAME="Loading_image Coverage Results" MODIFIED="1572570465472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day010_GUI_Game" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$07_Excel_001.coverage" NAME="07_Excel_001 Coverage Results" MODIFIED="1573293931812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day011_Files_and_exceptions" />
