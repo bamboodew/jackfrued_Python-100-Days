@@ -1,4 +1,8 @@
-from openpyxl import Workbook
+import math
+
+from tempfile import NamedTemporaryFile
+
+from openpyxl import Workbook, load_workbook
 
 wb = Workbook()
 ws = wb.active
@@ -55,5 +59,51 @@ for col in ws.iter_cols(min_row=1, max_col=3, max_row=2):
     for cell in col:
         print(cell)
 print()
-print(tuple(ws.rows))
-print(tuple(ws.columns))
+# print(tuple(ws.rows))
+# print(tuple(ws.columns))
+
+"""
+Values only
+If you just want the values from a worksheet you can use the Worksheet.values property. 
+This iterates over all the rows in a worksheet but returns just the cell values:
+"""
+# for row in ws.values:
+#     for value in row:
+#         print(value)
+"""
+Both Worksheet.iter_rows() and Worksheet.iter_cols() can take the values_only parameter to return just the cell’s value:
+"""
+for row in ws.iter_rows(min_row=1, max_col=3, max_row=2, values_only=True):
+    print(row)
+"""
+Data storage
+Once we have a Cell, we can assign it a value:
+"""
+c.value = 'hello, world'
+print(c)
+print(c.value)
+d.value = math.pi
+print(d)
+print(d.value)
+"""
+Saving to a file
+The simplest and safest way to save a workbook is by using the Workbook.save() method of the Workbook object:
+"""
+# wb.save('balances.xlsx')  # This operation will overwrite existing files without warning.
+
+with NamedTemporaryFile(delete=False) as tmp:
+    wb.save(tmp.name)
+    tmp.seek(0)
+    stream = tmp.read()  # https://stackoverflow.com/questions/23212435/permission-denied-to-write-to-my-temporary-file
+    tmp.close()
+
+wb1 = load_workbook('document.xlsx')
+wb1.template = True
+wb1.save('document_template.xltx')
+
+wb2 = load_workbook('document_template.xltx')
+wb2.template = False
+wb2.save('document2.xlsx')
+
+wb3 = load_workbook('balances.xlsx')
+print(wb3.sheetnames)
