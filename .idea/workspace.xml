@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35a8322c-a627-4767-8807-5e5b20deda4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Day015_ImageAndOfficeDocumentProcessing/04_SimlpeUsage_ReadAnExistingWorkbook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day015_ImageAndOfficeDocumentProcessing/05_SimpleUsage_UsingNumberFormats.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,7 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.04_SimlpeUsage_ReadAnExistingWorkbook">
+  <component name="RunManager" selected="Python.05_SimpleUsage_UsingNumberFormats">
     <configuration name="01_CreateWorkbook" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="jackfrued_Python-100-Days" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,28 +94,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Day015_ImageAndOfficeDocumentProcessing/01_CreateWorkbook.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="01_multiProgress" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="jackfrued_Python-100-Days" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Day013_ProcessAndThread" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Day013_ProcessAndThread/01_multiProgress.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,6 +168,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="05_SimpleUsage_UsingNumberFormats" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jackfrued_Python-100-Days" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Day015_ImageAndOfficeDocumentProcessing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Day015_ImageAndOfficeDocumentProcessing/05_SimpleUsage_UsingNumberFormats.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="GCD&amp;LCM" type="PythonConfigurationType" factoryName="Python">
       <module name="jackfrued_Python-100-Days" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,19 +214,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.GCD&amp;LCM" />
-      <item itemvalue="Python.01_multiProgress" />
       <item itemvalue="Python.01_CreateWorkbook" />
       <item itemvalue="Python.02_PlayingWithData" />
       <item itemvalue="Python.03_SimpleUsage_WriteAWorkbook" />
       <item itemvalue="Python.04_SimlpeUsage_ReadAnExistingWorkbook" />
+      <item itemvalue="Python.05_SimpleUsage_UsingNumberFormats" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.05_SimpleUsage_UsingNumberFormats" />
         <item itemvalue="Python.04_SimlpeUsage_ReadAnExistingWorkbook" />
         <item itemvalue="Python.03_SimpleUsage_WriteAWorkbook" />
         <item itemvalue="Python.02_PlayingWithData" />
         <item itemvalue="Python.01_CreateWorkbook" />
-        <item itemvalue="Python.01_multiProgress" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +258,7 @@
       <workItem from="1572406788811" duration="37901000" />
       <workItem from="1572609341086" duration="25689000" />
       <workItem from="1573261781814" duration="17702000" />
-      <workItem from="1573455078027" duration="35399000" />
+      <workItem from="1573455078027" duration="36720000" />
     </task>
     <servers />
   </component>
@@ -356,6 +356,7 @@
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$List_Create.coverage" NAME="List_Create Coverage Results" MODIFIED="1567215805654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day007_String" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$Iterator.coverage" NAME="Iterator Coverage Results" MODIFIED="1568776418114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day007_String_CommonDataStructure" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$01_multiProgress.coverage" NAME="01_multiProgress Coverage Results" MODIFIED="1573561223982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day013_ProcessAndThread" />
+    <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$05_SimpleUsage_UsingNumberFormats.coverage" NAME="05_SimpleUsage_UsingNumberFormats Coverage Results" MODIFIED="1574078307368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day015_ImageAndOfficeDocumentProcessing" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$Practice.coverage" NAME="Practice Coverage Results" MODIFIED="1567407539056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day007_String_CommonDataStructure" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$01_CreateWorkbook.coverage" NAME="01_CreateWorkbook Coverage Results" MODIFIED="1573649720790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day015_ImageAndOfficeDocumentProcessing" />
   </component>
