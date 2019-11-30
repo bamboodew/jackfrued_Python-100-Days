@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35a8322c-a627-4767-8807-5e5b20deda4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/graphical interfaces/fractalTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Build-in module/01_datetime.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Build-in module/01_datetime.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.01_datetime">
+  <component name="RunManager" selected="Python.fractalTree">
     <configuration name="01_datetime" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="jackfrued_Python-100-Days" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,28 +94,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Build-in module/01_datetime.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="05_SimpleUsage_UsingNumberFormats" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="jackfrued_Python-100-Days" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Day015_ImageAndOfficeDocumentProcessing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Day015_ImageAndOfficeDocumentProcessing/05_SimpleUsage_UsingNumberFormats.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,6 +168,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="fractalTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jackfrued_Python-100-Days" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/graphical interfaces" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/graphical interfaces/fractalTree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="jackfrued_Python-100-Days" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,19 +214,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.GCD&amp;LCM" />
-      <item itemvalue="Python.05_SimpleUsage_UsingNumberFormats" />
       <item itemvalue="Python.hello" />
       <item itemvalue="Python.demo_01" />
       <item itemvalue="Python.datetime" />
       <item itemvalue="Python.01_datetime" />
+      <item itemvalue="Python.fractalTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.fractalTree" />
         <item itemvalue="Python.01_datetime" />
         <item itemvalue="Python.datetime" />
         <item itemvalue="Python.demo_01" />
         <item itemvalue="Python.hello" />
-        <item itemvalue="Python.05_SimpleUsage_UsingNumberFormats" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +260,7 @@
       <workItem from="1573261781814" duration="17702000" />
       <workItem from="1573455078027" duration="45997000" />
       <workItem from="1574673266829" duration="1852000" />
-      <workItem from="1574737268222" duration="9234000" />
+      <workItem from="1574737268222" duration="10849000" />
     </task>
     <servers />
   </component>
@@ -311,6 +311,7 @@
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$Iterator_Fibonacci.coverage" NAME="Iterator_Fibonacci Coverage Results" MODIFIED="1567220345444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day007_String" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$GenerateCode.coverage" NAME="GenerateCode Coverage Results" MODIFIED="1567247931046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day007_String_CommonDataStructure" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$Making_a_game_window.coverage" NAME="Making_a_game_window Coverage Results" MODIFIED="1572569439494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day010_GUI_Game" />
+    <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$fractalTree.coverage" NAME="fractalTree Coverage Results" MODIFIED="1575115703962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/graphical interfaces" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$Tuple.coverage" NAME="Tuple Coverage Results" MODIFIED="1567234282075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day007_String_CommonDataStructure" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$03_Demo.coverage" NAME="03_Demo Coverage Results" MODIFIED="1572940633028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day011_Files_and_exceptions" />
     <SUITE FILE_PATH="coverage/jackfrued_Python_100_Days$01_InputInformation.coverage" NAME="01_InputInformation Coverage Results" MODIFIED="1573474917336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Day012_StringsAndRegularExpressions" />
