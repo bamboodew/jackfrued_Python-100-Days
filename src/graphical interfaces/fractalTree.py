@@ -21,7 +21,7 @@ turtle.pendown()
 turtle.fd(l)
 
 
-def draw_tree(l, level):
+def draw_tree(length, level):
     global r, g, b
     # save the current pen width
     w = turtle.width()
@@ -34,20 +34,20 @@ def draw_tree(l, level):
     b = b + 3
     turtle.pencolor(r % 200, g % 200, b % 200)
 
-    l = 3.0 / 4.0 * l
+    length = 3.0 / 4.0 * length
 
     turtle.lt(s)
-    turtle.fd(l)
+    turtle.fd(length)
 
     if level < lv:
-        draw_tree(l, level + 1)
-    turtle.bk(l)
+        draw_tree(length, level + 1)
+    turtle.bk(length)
     turtle.rt(2 * s)
-    turtle.fd(l)
+    turtle.fd(length)
 
     if level < lv:
-        draw_tree(l, level + 1)
-    turtle.bk(l)
+        draw_tree(length, level + 1)
+    turtle.bk(length)
     turtle.lt(s)
 
     # restore the previous pen width
