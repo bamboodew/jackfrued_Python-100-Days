@@ -112,4 +112,23 @@ This template project is an example that prints on the console the Hello World!!
         display_info(ultraman, monsters)
         # 增加一个回合
         fight_round += 1
+        
+        # range(1, 10)
+print(range(1,10))
+
+# <generator object <genexpr> at 0x00000242FFBF0DD0>
+print(ele for ele in range(1,10))
+
+# [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print([ele for ele in range(1,10)])
+
+# <generator object <genexpr> at 0x00000242FFBF0DD0>
+print((ele for ele in range(1,10)))
+
+# (1, 2, 3, 4, 5, 6, 7, 8, 9)
+print(tuple(ele for ele in range(1,10)))
+
+# (1, 2, 3, 4, 5, 6, 7, 8, 9)
+print(tuple([ele for ele in range(1,10)]))
+
 >>>>>>> 814997d3c14a381012e9e8065cbe7d891bedf017
